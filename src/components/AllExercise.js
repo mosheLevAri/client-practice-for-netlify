@@ -51,7 +51,7 @@ export default function AllExercise({ admin }) {
 
     function ScrollHome(params) {
         return window.scrollTo({
-            top: 700,
+            top: 850,
             left: 0,
             behavior: "smooth"
         })
