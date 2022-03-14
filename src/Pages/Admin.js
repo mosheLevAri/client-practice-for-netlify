@@ -17,7 +17,7 @@ function CreateExercise() {
 
 
     return (
-        <div className="adminDashBored">
+        <div className="adminDashBored ">
           <div className="DashBored">
           <h1 className="h1Home">ברוך הבא לדף הניהול</h1>
               <div> </div>
