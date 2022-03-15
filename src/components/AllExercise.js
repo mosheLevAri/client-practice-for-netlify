@@ -2,7 +2,9 @@
 import { GiClick } from "react-icons/gi"
 import { BsCheckCircleFill } from "react-icons/bs"
 import { AiOutlineArrowRight } from "react-icons/ai"
-import { FaSearch } from "react-icons/fa"
+import { FaSearch,FaLaptopCode } from "react-icons/fa"
+import { CgShapeZigzag } from "react-icons/cg"
+
 
 import { Link } from "react-router-dom";
 import axios from "axios"
@@ -143,7 +145,7 @@ export default function AllExercise({ admin }) {
                         </div>
                     </div>
                 </div>}
-                <h1 className="h1Lang">Programming languages</h1>
+                <div className="h1Lang"><FaLaptopCode/> <h2>Explore and get fluent <h4>in</h4> 56 Programming languages</h2><CgShapeZigzag/> </div>
                 <div>{user?.firstName}</div>
                 <div className="DivAboveLang">
                     {LanguageData ? LanguageData.map(v => {
