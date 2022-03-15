@@ -762,10 +762,10 @@ flex-direction: column-reverse;}
   height: 274px;
   margin-top: 10px;
 }
-.ExerciseLangDetails{
+/* .ExerciseLangDetails{
   flex-direction: column-reverse;
   align-items: flex-end;
-}
+} */
 .Loader {
   width: 27%;
   margin: 0 auto;
