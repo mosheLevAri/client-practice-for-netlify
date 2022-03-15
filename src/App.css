@@ -342,10 +342,10 @@ display: flex;
   background-color: white;
   padding: 5px;
   height: 135px;
-  width: 382px;
+  width: 250px;
   cursor: pointer;
-  border-radius: 6px;
-  box-shadow: 0px 0px 8px 2px #888888a6;
+  /* border-radius: 6px; */
+  /* box-shadow: 0px 0px 8px 2px #888888a6; */
 }
 
 .h1Lang {
@@ -367,7 +367,7 @@ display: flex;
   transition: 0.15s;
 }
 
-.DivAboveLang {
+/* .DivAboveLang {
   width: 93%;
   border: 1px solid transparent;
   position: relative;
@@ -375,7 +375,7 @@ display: flex;
   box-shadow: 0px 0px 14px 5px #888888a6;
   padding-top: 25px;
   border-radius: 20px;
-}
+} */
 
 .ExerciseCard {
   border: 2px solid #8fbc8f61;
@@ -432,6 +432,8 @@ display: flex;
   margin: 5px;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  height: 120px;
 }
 
 /* .ExerciseCard:hover {
@@ -741,7 +743,7 @@ flex-direction: column;
   left:1.5rem
 }
 .LanguageList{
-  width: 320px;
+  width: 150px;
 }
 .HeaderButtonLogInNav{
   width: 125px;
