@@ -98,7 +98,7 @@ export default function AllExercise({ admin }) {
     return <div>
         {view ? <div> {ExerciseData ?
             <><div className="SearchExercise">
-                <div className="ExerciseLangDetails">
+                <div className="ExerciseSearchDetails">
 
                     <select name="type" className="selectSearch" onChange={TypeFilter} >
                         <option value="">Choose type exercise</option>
@@ -145,7 +145,7 @@ export default function AllExercise({ admin }) {
                         </div>
                     </div>
                 </div>}
-                <div className="h1Lang"><FaLaptopCode  className="cgImg"/> <h2>Explore and get fluent <h4>in</h4> 56 Programming languages</h2><CgShapeZigzag className="cgImg"/> </div>
+                <div className="h1Lang"><FaLaptopCode  className="cgImg"/> <h2 style={{fontSize:"28",fontWeigh:"600"}}>Explore and get fluent <h4>in</h4> 56 Programming languages</h2><CgShapeZigzag className="cgImg"/> </div>
                 <div>{user?.firstName}</div>
                 <div className="DivAboveLang">
                     {LanguageData ? LanguageData.map(v => {

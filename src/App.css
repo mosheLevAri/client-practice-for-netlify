@@ -352,14 +352,14 @@ display: flex;
   margin:5% 0 3.8%;
   font-weight: 800;
   background-image: url('Colored\ Shapes\ \(2\).svg');
-  height: 167px;
+  height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
  
 }
 .cgImg{
-  font-size: 2.8rem;
-}
+  font-size: 3.8rem;
+  margin: 3px;}
 
 .LanguageList:hover {
   background-color: #b8b4b430;
@@ -434,6 +434,11 @@ display: flex;
   align-items: center;
   flex-direction: column;
   height: 120px;
+}
+.ExerciseSearchDetails{
+  align-items: center;
+    display: flex;
+    margin: 5px;
 }
 
 /* .ExerciseCard:hover {
@@ -749,7 +754,7 @@ flex-direction: column;
   width: 125px;
 }
 .h1Lang{
-  margin:1.5rem 0px 0px;
+  margin:2.5rem 0 10px;
 }
 .ExecriseDetails{
   width: 100%;
@@ -762,10 +767,10 @@ flex-direction: column-reverse;}
   height: 274px;
   margin-top: 10px;
 }
-/* .ExerciseLangDetails{
+.ExerciseSearchDetails{
   flex-direction: column-reverse;
   align-items: flex-end;
-} */
+}
 .Loader {
   width: 27%;
   margin: 0 auto;
