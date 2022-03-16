@@ -48,7 +48,6 @@ export default function AllExercise({ admin }) {
     const clickLangFn = (id) => {
         getExercise(id);
         setView(true)
-
     };
 
     function ScrollHome(params) {
