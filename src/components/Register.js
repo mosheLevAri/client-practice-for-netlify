@@ -35,7 +35,7 @@ export default function Register(props) {
         <div className="registerDiv">
             <div className="imgRegister"></div>
             <div>
-                <h1 style={{ marginTop: 20 }}>ברוך הבא למשפחה</h1>
+                <h1 style={{ marginTop: 20 }}>Welcome To Our Family</h1>
 
                 <form className="FormLogin" onSubmit={SendRegister}>
                     <div>

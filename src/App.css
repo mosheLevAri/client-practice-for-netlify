@@ -252,6 +252,7 @@ span {
 
 .app {
   text-align: center;
+  zoom: 90%;
 }
 .divAboveImgHeader{
 display: flex;

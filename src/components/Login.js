@@ -46,7 +46,7 @@ export default function Login(props) {
         <div className="registerDiv">
             <div className="imgLogin"></div>
             <div>
-                <h1 style={{marginTop:20}}>כיף שחזרת</h1>
+                <h1 style={{marginTop:20}}>Welcome Back</h1>
                 <form className="FormLogin" onSubmit={SendLogin}>
                     <input type='email' name="email" placeholder="Enter your email address" />
                     <input type='password' name="password" placeholder="Enter your password" />
