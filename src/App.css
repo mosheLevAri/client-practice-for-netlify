@@ -778,4 +778,7 @@ flex-direction: column-reverse;}
   top: 4rem;
   position: relative;
 }
+.app{
+  zoom: 100%;
+}
 }
