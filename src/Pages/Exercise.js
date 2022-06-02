@@ -35,7 +35,6 @@ export default function Exercise() {
 
     //     setparagrphExersize(contentArr)
     // }
-    console.log(ExecriseData);
 
     return (<div className="ExecriseDetails">
         {/* <div><button className="buttonBack"> Go back <AiOutlineArrowRight style={{ color: 'red' }} /></button></div> */}
