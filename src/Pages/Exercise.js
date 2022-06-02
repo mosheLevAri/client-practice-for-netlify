@@ -18,7 +18,7 @@ export default function Exercise() {
 
     useEffect(getLanguage, []);
     function getLanguage() {
-        axios.get(`http://localhost:3333/exercise/${params.id}`)
+        axios.get(`https://practice-exercize2.herokuapp.com/exercise/${params.id}`)
             .then(result => {
                 setExecriseData(result.data.exercise[0])
 
