@@ -36,6 +36,18 @@ span {
   font-weight: 500;
   font-family: 'Rubik';
 }
+.Pdescription{
+  margin: 1rem;
+  text-align:left;
+  font-size: 18px;
+}
+
+pre{
+  text-align: left;
+  padding: 12px 20px;
+  border: 1px solid #8080808c;
+  border-radius: 6px;
+}
 hr{
   border: 1px solid #9e9e9e;
   background-color: #9e9e9e;

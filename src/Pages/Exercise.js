@@ -56,7 +56,7 @@ export default function Exercise() {
                 <div>
                     {solution ?
                         <pre className="ExecriseDetails">{ExecriseData.solution.split('\\n').map(v => {
-                           return <p key={v} style={{ fontWeight: 400, padding: 5 }}>{v}</p>
+                            return <p key={v} style={{ fontWeight: 400, padding: 5 }}>{v}</p>
                         }
                         )}
                         </pre> : ''}
